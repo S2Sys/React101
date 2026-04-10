@@ -1,0 +1,149 @@
+/**
+ * Settings Page Styles
+ */
+
+.settings-page {
+  min-height: calc(100vh - 64px);
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.settings-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.settings-container > h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.settings-box {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.settings-section {
+  padding: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.settings-section:last-of-type {
+  border-bottom: none;
+}
+
+.settings-section h2 {
+  font-size: 1.3em;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.setting-item {
+  margin-bottom: 1.5rem;
+}
+
+.setting-item:last-child {
+  margin-bottom: 0;
+}
+
+.setting-label {
+  display: block;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.setting-checkbox {
+  margin-right: 0.5rem;
+}
+
+.setting-select {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.setting-select:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+.setting-description {
+  color: #999;
+  font-size: 0.9em;
+  margin-top: 0.3rem;
+}
+
+.about-content {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.about-content p {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.about-content strong {
+  color: #0066cc;
+}
+
+.about-content ul {
+  list-style-position: inside;
+  color: #666;
+  margin-top: 1rem;
+}
+
+.about-content li {
+  margin-bottom: 0.5rem;
+}
+
+.danger-section {
+  background-color: #ffebee;
+  border-left: 4px solid #d32f2f;
+}
+
+.danger-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.danger-btn:hover {
+  background-color: #c62828;
+}
+
+.settings-info {
+  background: #f0f8ff;
+  border-left: 4px solid #0066cc;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 2rem;
+  color: #333;
+}
+
+.settings-info p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .settings-section {
+    padding: 1.5rem;
+  }
+
+  .setting-select {
+    max-width: none;
+  }
+}

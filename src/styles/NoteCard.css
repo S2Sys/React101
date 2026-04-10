@@ -1,0 +1,112 @@
+/**
+ * Note Card Component Styles
+ */
+
+.note-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.note-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  border: 1px solid #e0e0e0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  border-color: #0066cc;
+}
+
+.note-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.note-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+  flex: 1;
+  line-height: 1.3;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  padding: 0.5rem;
+}
+
+.note-card:hover .delete-btn {
+  opacity: 1;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+}
+
+.note-content {
+  color: #666;
+  margin-bottom: 1rem;
+  flex: 1;
+  line-height: 1.5;
+}
+
+.note-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.note-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.note-date {
+  color: #999;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .note-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .note-tags {
+    width: 100%;
+  }
+}

@@ -1,0 +1,194 @@
+/**
+ * Note Page Styles
+ */
+
+.note-page {
+  min-height: calc(100vh - 64px);
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.note-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.back-btn,
+.edit-btn,
+.delete-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.back-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.edit-btn:hover {
+  background-color: #0066cc;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.note-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.not-found-message {
+  background: white;
+  padding: 3rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-message h2 {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.not-found-message p {
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+/* View Mode */
+.note-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-content .note-title {
+  font-size: 2em;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.note-meta {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.note-date {
+  color: #999;
+  font-size: 0.95em;
+}
+
+.note-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.9em;
+}
+
+.note-text {
+  color: #333;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Edit Mode */
+.note-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.primary-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.primary-btn:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.secondary-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.secondary-btn:hover {
+  background-color: #d0d0d0;
+}
+
+.primary-btn:disabled,
+.secondary-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .note-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .note-actions {
+    width: 100%;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+  }
+}
