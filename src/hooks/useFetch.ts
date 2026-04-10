@@ -139,6 +139,21 @@ export const usePolling = <T,>(
   // Store interval ID so we can stop it
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | null>(null);
 
+  // Refetch function
+  const refetch = useCallback(async () => {
+    try {
+      setIsLoading(true);
+      const result = await fetchFn();
+      setData(result);
+      setError(null);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : 'Unknown error';
+      setError(errorMessage);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [fetchFn]);
+
   // Function to stop polling
   const stop = useCallback(() => {
     if (intervalId) {
@@ -178,7 +193,7 @@ export const usePolling = <T,>(
     };
   }, [fetchFn, interval, enabled]);
 
-  return { data, isLoading, error, stop };
+  return { data, isLoading, error, refetch, stop };
 };
 
 /**

@@ -93,7 +93,7 @@ export const useAuthToken = (): string | null => {
  *
  * USAGE:
  * const isLoggedIn = useIsAuthenticated();
- * if (isLoggedIn) { /* show logged in UI */ }
+ * if (isLoggedIn) { // show logged in UI
  */
 export const useIsAuthenticated = (): boolean => {
   const { isAuthenticated } = useAuth();
