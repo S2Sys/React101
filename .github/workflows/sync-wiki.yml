@@ -81,12 +81,7 @@ EOF
           cd wiki-repo
           if [[ $(git status -s) ]]; then
             git add *.md _Sidebar.md
-            git commit -m "Auto-sync wiki from source repository
-
-- Updated all wiki documents
-- Fixed all links for GitHub Wiki format
-- Refreshed sidebar navigation
-- Synced on: $(date)" || true
+            git commit -m "Auto-sync wiki from source repository" || true
             git push https://github.com/S2Sys/React101.wiki.git master
             echo "Wiki synced successfully!"
           else
@@ -94,4 +89,4 @@ EOF
           fi
 
       - name: Sync completed
-        run: echo "✅ Wiki sync completed at $(date)"
+        run: echo "Wiki sync completed at $(date)"
