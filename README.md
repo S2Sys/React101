@@ -324,12 +324,92 @@ App (Root)
 - Component composition and architecture
 - How to structure a real-world React app
 
+## 📚 Complete Wiki Documentation (20 Guides)
+
+This project includes comprehensive wiki documentation covering all React concepts. Access the full wiki in the `/wiki` directory or view online.
+
+### **Getting Started** (Beginner)
+- **[Quick Start Guide](wiki/01-quick-start.md)** - Installation, first steps, and troubleshooting
+- **[Architecture Overview](wiki/02-architecture.md)** - System design, data flow, and directory structure
+- **[React Hooks Guide](wiki/03-hooks-guide.md)** - All 8 React hooks explained with examples
+
+### **Core Concepts** (Intermediate)
+- **[State Management](wiki/04-state-management.md)** - Context API, useReducer, localStorage patterns
+- **[Components Guide](wiki/05-components-guide.md)** - All 5+ components documented
+- **[Custom Hooks](wiki/06-custom-hooks.md)** - 12+ custom hooks with patterns and examples
+- **[Pages & Features](wiki/07-pages-features.md)** - All 6 pages with features and testing
+- **[Authentication](wiki/08-authentication.md)** - Login/signup flows, tokens, protected routes
+
+### **Implementation Guides** (Intermediate)
+- **[CRUD Operations](wiki/09-crud-operations.md)** - Create, read, update, delete with state flows
+- **[Form Handling](wiki/10-form-handling.md)** - Forms, validation, error display, useForm hook
+- **[Mock API Guide](wiki/11-mock-api.md)** - API endpoints, storage, request/response examples
+- **[Styling Guide](wiki/12-styling.md)** - CSS organization, responsive design, patterns
+
+### **Advanced Topics** (Advanced)
+- **[Performance Tips](wiki/13-performance.md)** - useMemo, useCallback, code splitting, profiling
+- **[Error Handling](wiki/14-error-handling.md)** - Error boundaries, try/catch, recovery strategies
+- **[TypeScript Guide](wiki/15-typescript.md)** - Types, interfaces, generics, best practices
+- **[Testing Guide](wiki/16-testing.md)** - Unit, component, integration, and E2E testing
+
+### **Best Practices & Reference** (All Levels)
+- **[Best Practices](wiki/17-best-practices.md)** - React patterns, code organization, naming
+- **[Troubleshooting](wiki/18-troubleshooting.md)** - Common errors, debugging, solutions
+- **[FAQ](wiki/19-faq.md)** - 50+ common questions answered
+- **[Advanced FAQ](wiki/20-advanced-faq.md)** - 40+ advanced questions and edge cases
+
+### **Learning Paths**
+
+**🟢 Beginner (0-3 months)**
+1. [Quick Start](wiki/01-quick-start.md)
+2. [Architecture](wiki/02-architecture.md)
+3. [Hooks Guide](wiki/03-hooks-guide.md)
+4. [State Management](wiki/04-state-management.md)
+5. [Components Guide](wiki/05-components-guide.md)
+6. [FAQ](wiki/19-faq.md)
+
+**🟡 Intermediate (3-6 months)**
+1. Complete Beginner path
+2. [Custom Hooks](wiki/06-custom-hooks.md)
+3. [Pages & Features](wiki/07-pages-features.md)
+4. [Authentication](wiki/08-authentication.md)
+5. [CRUD Operations](wiki/09-crud-operations.md)
+6. [Form Handling](wiki/10-form-handling.md)
+7. [Mock API](wiki/11-mock-api.md)
+8. [Styling Guide](wiki/12-styling.md)
+
+**🔴 Advanced (6+ months)**
+1. Complete Intermediate path
+2. [Performance Tips](wiki/13-performance.md)
+3. [Error Handling](wiki/14-error-handling.md)
+4. [TypeScript Guide](wiki/15-typescript.md)
+5. [Testing Guide](wiki/16-testing.md)
+6. [Best Practices](wiki/17-best-practices.md)
+7. [Advanced FAQ](wiki/20-advanced-faq.md)
+
+### **Quick Reference**
+
+| Topic | Document | Key Concepts |
+|-------|----------|--------------|
+| 🪝 React Hooks | [Hooks Guide](wiki/03-hooks-guide.md) | useState, useEffect, useContext, useReducer, useCallback, useMemo, useRef, useLayoutEffect |
+| 🔄 State Management | [State Management](wiki/04-state-management.md) | Context API, useReducer, localStorage, state patterns |
+| 🎣 Custom Hooks | [Custom Hooks](wiki/06-custom-hooks.md) | useAuth, useFetch, useForm, useLocalStorage, useDebounce |
+| 🔐 Authentication | [Authentication](wiki/08-authentication.md) | Login, signup, tokens, protected routes, JWT |
+| 📝 Forms | [Form Handling](wiki/10-form-handling.md) | Validation, error display, submission, useForm hook |
+| 📡 API | [Mock API](wiki/11-mock-api.md) | Endpoints, in-memory storage, requests, responses |
+| 🎨 Styling | [Styling Guide](wiki/12-styling.md) | CSS organization, responsive design, flexbox, grid |
+| ⚡ Performance | [Performance Tips](wiki/13-performance.md) | useMemo, useCallback, code splitting, profiling |
+| 🛡️ Errors | [Error Handling](wiki/14-error-handling.md) | Error boundaries, try/catch, recovery |
+| 📘 TypeScript | [TypeScript Guide](wiki/15-typescript.md) | Types, interfaces, generics, typing React |
+| 🧪 Testing | [Testing Guide](wiki/16-testing.md) | Unit tests, component tests, E2E tests |
+
 ## 📚 Further Learning
 
 - Check comments in code for inline explanations
 - Modify the code and see what breaks
 - Try adding new features
 - Experiment with different state management approaches
+- Read the comprehensive wiki guides (links above)
 - Read React documentation: https://react.dev
 
 ## 🐛 Troubleshooting
