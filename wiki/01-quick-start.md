@@ -226,3 +226,4 @@ You now have a fully functional React application running. Take some time to exp
 ---
 
 **Questions?** Check [Troubleshooting](18-troubleshooting) or review the [Best Practices](17-best-practices) guide.
+
