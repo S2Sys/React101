@@ -1,0 +1,25 @@
+name: Sync Wiki
+
+on:
+  push:
+    paths:
+      - 'wiki/**'
+    branches:
+      - main
+
+jobs:
+  sync-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Clone wiki repo
+        run: |
+          git clone https://github.com/S2Sys/React101.wiki.git wiki-repo
+          cd wiki-repo
+          cp ../wiki/*.md ./
+          git config user.name "Wiki Sync"
+          git config user.email "noreply@github.com"
+          git add *.md
+          git commit -m "Sync wiki from main repo" || true
+          git push
