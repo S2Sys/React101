@@ -35,41 +35,7 @@ jobs:
       - name: Create sidebar navigation
         run: |
           cd wiki-repo
-          cat > _Sidebar.md << 'EOF'
-# React101 Wiki
-
-## Beginner
-- **[Home](Home)**
-- **[Quick Start](01-quick-start)**
-- **[Architecture](02-architecture)**
-- **[Hooks Guide](03-hooks-guide)**
-- **[State Management](04-state-management)**
-- **[Components](05-components-guide)**
-
-## Intermediate
-- **[Custom Hooks](06-custom-hooks)**
-- **[Pages & Features](07-pages-features)**
-- **[Authentication](08-authentication)**
-- **[CRUD Operations](09-crud-operations)**
-- **[Form Handling](10-form-handling)**
-- **[Mock API](11-mock-api)**
-- **[Styling](12-styling)**
-
-## Advanced
-- **[Performance](13-performance)**
-- **[Error Handling](14-error-handling)**
-- **[TypeScript](15-typescript)**
-- **[Testing](16-testing)**
-- **[Best Practices](17-best-practices)**
-- **[Troubleshooting](18-troubleshooting)**
-
-## Reference
-- **[FAQ](19-faq)**
-- **[Advanced FAQ](20-advanced-faq)**
-
----
-Status: Auto-synced from source repository
-EOF
+          printf '# React101 Wiki\n\n## Beginner\n- **[Home](Home)**\n- **[Quick Start](01-quick-start)**\n- **[Architecture](02-architecture)**\n- **[Hooks Guide](03-hooks-guide)**\n- **[State Management](04-state-management)**\n- **[Components](05-components-guide)**\n\n## Intermediate\n- **[Custom Hooks](06-custom-hooks)**\n- **[Pages & Features](07-pages-features)**\n- **[Authentication](08-authentication)**\n- **[CRUD Operations](09-crud-operations)**\n- **[Form Handling](10-form-handling)**\n- **[Mock API](11-mock-api)**\n- **[Styling](12-styling)**\n\n## Advanced\n- **[Performance](13-performance)**\n- **[Error Handling](14-error-handling)**\n- **[TypeScript](15-typescript)**\n- **[Testing](16-testing)**\n- **[Best Practices](17-best-practices)**\n- **[Troubleshooting](18-troubleshooting)**\n\n## Reference\n- **[FAQ](19-faq)**\n- **[Advanced FAQ](20-advanced-faq)**\n\n---\nStatus: Auto-synced from source repository\n' > _Sidebar.md
 
       - name: Check for changes
         run: |
