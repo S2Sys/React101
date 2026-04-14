@@ -648,10 +648,10 @@ import classNames from 'classnames';
 
 ## 🔗 Related Documentation
 
-- [Components Guide](05-components-guide.md) - Component structure
-- [Performance Tips](13-performance.md) - Optimization techniques
-- [Best Practices](17-best-practices.md) - Code organization
+- [Components Guide](05-components-guide) - Component structure
+- [Performance Tips](13-performance) - Optimization techniques
+- [Best Practices](17-best-practices) - Code organization
 
 ---
 
-**Next**: Learn about [Performance Tips](13-performance.md).
+**Next**: Learn about [Performance Tips](13-performance).

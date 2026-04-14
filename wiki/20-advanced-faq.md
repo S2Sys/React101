@@ -690,7 +690,7 @@ const fetchDataWithTimeout = (url, timeout = 5000) => {
   return Promise.race([
     fetch(url),
     new Promise((_, reject) =>
-      setTimeout(() => reject(new Error('Timeout')), timeout)
+      setTimeout(() => reject(new Error]('Timeout')), timeout)
     )
   ]);
 };

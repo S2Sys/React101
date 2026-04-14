@@ -405,4 +405,4 @@ Other components unaffected
 
 ---
 
-**Next**: Learn about [Form Handling](10-form-handling.md).
+**Next**: Learn about [Form Handling](10-form-handling).

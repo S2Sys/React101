@@ -539,11 +539,11 @@ Cypress.Commands.add('login', (email: string, password: string) => {
 
 ## 🔗 Related Documentation
 
-- [Error Handling](14-error-handling.md) - Error states to test
-- [Form Handling](10-form-handling.md) - Form testing examples
-- [Components Guide](05-components-guide.md) - Component structure
-- [Custom Hooks](06-custom-hooks.md) - Hook patterns
+- [Error Handling](14-error-handling) - Error states to test
+- [Form Handling](10-form-handling) - Form testing examples
+- [Components Guide](05-components-guide) - Component structure
+- [Custom Hooks](06-custom-hooks) - Hook patterns
 
 ---
 
-**Next**: Learn about [Best Practices](17-best-practices.md).
+**Next**: Learn about [Best Practices](17-best-practices).

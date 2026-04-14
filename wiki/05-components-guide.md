@@ -536,4 +536,4 @@ All can access same state!
 
 ---
 
-**Next**: Learn about [Custom Hooks](06-custom-hooks.md) for reusable logic.
+**Next**: Learn about [Custom Hooks](06-custom-hooks) for reusable logic.

@@ -4,24 +4,24 @@ Welcome to the complete documentation for the React Comprehensive Learning App. 
 
 ## 📚 Table of Contents
 
-1. **[Quick Start Guide](01-quick-start.md)** - Get the app running in 5 minutes
-2. **[Project Architecture](02-architecture.md)** - Overall structure and design patterns
-3. **[React Hooks Explained](03-hooks-guide.md)** - Deep dive into all hooks used
-4. **[State Management](04-state-management.md)** - Context API and useReducer patterns
-5. **[Components Guide](05-components-guide.md)** - All components explained
-6. **[Custom Hooks Library](06-custom-hooks.md)** - Each custom hook in detail
-7. **[Pages & Features](07-pages-features.md)** - All pages and their functionality
-8. **[Authentication Flow](08-authentication.md)** - Login, signup, and token management
-9. **[CRUD Operations](09-crud-operations.md)** - Create, Read, Update, Delete patterns
-10. **[Form Handling](10-form-handling.md)** - Form state, validation, and submission
-11. **[Mock API Guide](11-mock-api.md)** - Backend simulation and endpoints
-12. **[Styling Guide](12-styling.md)** - CSS structure and responsive design
-13. **[Performance Tips](13-performance.md)** - Optimization techniques
-14. **[Error Handling](14-error-handling.md)** - Error boundaries and try/catch patterns
-15. **[TypeScript Guide](15-typescript.md)** - Type safety and interfaces
-16. **[Testing Guide](16-testing.md)** - How to test the application
-17. **[Best Practices](17-best-practices.md)** - React patterns and conventions
-18. **[Troubleshooting](18-troubleshooting.md)** - Common issues and solutions
+1. **[Quick Start Guide](01-quick-start)** - Get the app running in 5 minutes
+2. **[Project Architecture](02-architecture)** - Overall structure and design patterns
+3. **[React Hooks Explained](03-hooks-guide)** - Deep dive into all hooks used
+4. **[State Management](04-state-management)** - Context API and useReducer patterns
+5. **[Components Guide](05-components-guide)** - All components explained
+6. **[Custom Hooks Library](06-custom-hooks)** - Each custom hook in detail
+7. **[Pages & Features](07-pages-features)** - All pages and their functionality
+8. **[Authentication Flow](08-authentication)** - Login, signup, and token management
+9. **[CRUD Operations](09-crud-operations)** - Create, Read, Update, Delete patterns
+10. **[Form Handling](10-form-handling)** - Form state, validation, and submission
+11. **[Mock API Guide](11-mock-api)** - Backend simulation and endpoints
+12. **[Styling Guide](12-styling)** - CSS structure and responsive design
+13. **[Performance Tips](13-performance)** - Optimization techniques
+14. **[Error Handling](14-error-handling)** - Error boundaries and try/catch patterns
+15. **[TypeScript Guide](15-typescript)** - Type safety and interfaces
+16. **[Testing Guide](16-testing)** - How to test the application
+17. **[Best Practices](17-best-practices)** - React patterns and conventions
+18. **[Troubleshooting](18-troubleshooting)** - Common issues and solutions
 
 ## 🎯 Learning Paths
 
@@ -51,11 +51,11 @@ Master advanced patterns:
 
 ## 🚀 Quick Links
 
-- **Setup & Installation** → [Quick Start](01-quick-start.md)
-- **Understanding Hooks** → [Hooks Guide](03-hooks-guide.md)
-- **Building Features** → [Pages & Features](07-pages-features.md)
-- **State Patterns** → [State Management](04-state-management.md)
-- **Solving Problems** → [Troubleshooting](18-troubleshooting.md)
+- **Setup & Installation** → [Quick Start](01-quick-start)
+- **Understanding Hooks** → [Hooks Guide](03-hooks-guide)
+- **Building Features** → [Pages & Features](07-pages-features)
+- **State Patterns** → [State Management](04-state-management)
+- **Solving Problems** → [Troubleshooting](18-troubleshooting)
 
 ## 📊 Project Statistics
 
@@ -102,7 +102,7 @@ Master advanced patterns:
 
 By studying this application, you'll understand:
 
-✅ How to think in React (components and props)
+✅ How to think in React ](components and props)
 ✅ All React Hooks and when to use each one
 ✅ How to manage complex application state
 ✅ How to build reusable custom hooks
@@ -137,11 +137,11 @@ Each wiki page includes:
 
 **Want to learn about...**
 - **useState**? → [Hooks Guide - useState](03-hooks-guide.md#usestate)
-- **Creating notes**? → [CRUD Operations](09-crud-operations.md)
-- **Logging in**? → [Authentication Flow](08-authentication.md)
-- **Building a form**? → [Form Handling](10-form-handling.md)
-- **Making it faster**? → [Performance Tips](13-performance.md)
-- **Why something broke**? → [Troubleshooting](18-troubleshooting.md)
+- **Creating notes**? → [CRUD Operations](09-crud-operations)
+- **Logging in**? → [Authentication Flow](08-authentication)
+- **Building a form**? → [Form Handling](10-form-handling)
+- **Making it faster**? → [Performance Tips](13-performance)
+- **Why something broke**? → [Troubleshooting](18-troubleshooting)
 
 ## 📝 Document Version
 
@@ -153,4 +153,4 @@ Each wiki page includes:
 
 ---
 
-**Ready to dive in?** Start with the [Quick Start Guide](01-quick-start.md)! 🚀
+**Ready to dive in?** Start with the [Quick Start Guide](01-quick-start)! 🚀

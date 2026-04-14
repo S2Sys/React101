@@ -465,4 +465,4 @@ Version 3.0 (Later)
 
 ---
 
-**Next**: Learn about [React Hooks](03-hooks-guide.md) which are the heart of this application.
+**Next**: Learn about [React Hooks](03-hooks-guide) which are the heart of this application.

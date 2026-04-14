@@ -584,11 +584,11 @@ export const apiCreateNote = async (
 
 ## 🔗 Related Documentation
 
-- [Custom Hooks](06-custom-hooks.md) - Hook patterns
-- [Components Guide](05-components-guide.md) - Component design
-- [State Management](04-state-management.md) - State patterns
-- [Error Handling](14-error-handling.md) - Error handling patterns
+- [Custom Hooks](06-custom-hooks) - Hook patterns
+- [Components Guide](05-components-guide) - Component design
+- [State Management](04-state-management) - State patterns
+- [Error Handling](14-error-handling) - Error handling patterns
 
 ---
 
-**Next**: Learn about [Troubleshooting](18-troubleshooting.md).
+**Next**: Learn about [Troubleshooting](18-troubleshooting).

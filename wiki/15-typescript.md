@@ -659,11 +659,11 @@ const Button = ({ variant = 'primary', size = 'md', ...props }: ButtonProps) => 
 
 ## 🔗 Related Documentation
 
-- [Components Guide](05-components-guide.md) - Component examples
-- [Custom Hooks](06-custom-hooks.md) - Hook patterns
-- [State Management](04-state-management.md) - Context typing
-- [Best Practices](17-best-practices.md) - General patterns
+- [Components Guide](05-components-guide) - Component examples
+- [Custom Hooks](06-custom-hooks) - Hook patterns
+- [State Management](04-state-management) - Context typing
+- [Best Practices](17-best-practices) - General patterns
 
 ---
 
-**Next**: Learn about [Testing Guide](16-testing.md).
+**Next**: Learn about [Testing Guide](16-testing).

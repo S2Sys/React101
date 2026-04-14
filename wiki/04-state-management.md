@@ -572,4 +572,4 @@ const reducer = (state, action) => {
 
 ---
 
-**Next**: Read about [Custom Hooks](06-custom-hooks.md) for reusable logic patterns.
+**Next**: Read about [Custom Hooks](06-custom-hooks) for reusable logic patterns.

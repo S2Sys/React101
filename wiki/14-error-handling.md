@@ -541,11 +541,11 @@ componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
 
 ## 🔗 Related Documentation
 
-- [State Management](04-state-management.md) - Managing error state
-- [Form Handling](10-form-handling.md) - Validation errors
-- [Components Guide](05-components-guide.md) - ErrorBoundary component
-- [Best Practices](17-best-practices.md) - Error patterns
+- [State Management](04-state-management) - Managing error state
+- [Form Handling](10-form-handling) - Validation errors
+- [Components Guide](05-components-guide) - ErrorBoundary component
+- [Best Practices](17-best-practices) - Error patterns
 
 ---
 
-**Next**: Learn about [TypeScript Guide](15-typescript.md).
+**Next**: Learn about [TypeScript Guide](15-typescript).

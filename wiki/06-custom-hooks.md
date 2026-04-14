@@ -413,4 +413,4 @@ const SettingsPage = () => {
 
 ---
 
-**Next**: Learn about [Pages & Features](07-pages-features.md).
+**Next**: Learn about [Pages & Features](07-pages-features).

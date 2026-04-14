@@ -329,4 +329,4 @@ form.setFieldValue('email', 'new@example.com');
 
 ---
 
-**Next**: Learn about [Mock API](11-mock-api.md).
+**Next**: Learn about [Mock API](11-mock-api).

@@ -526,11 +526,11 @@ export const App = () => (
 ## 🔗 Additional Resources
 
 - [Quick Start - Troubleshooting](01-quick-start.md#troubleshooting)
-- [Error Handling](14-error-handling.md) - Error strategies
-- [State Management](04-state-management.md) - State issues
-- [FAQ](19-faq.md) - Common questions answered
-- [Advanced FAQ](20-advanced-faq.md) - Advanced issues
+- [Error Handling](14-error-handling) - Error strategies
+- [State Management](04-state-management) - State issues
+- [FAQ](19-faq) - Common questions answered
+- [Advanced FAQ](20-advanced-faq) - Advanced issues
 
 ---
 
-**Complete!** You've covered all 18 documentation sections. For more detailed questions, check [FAQ](19-faq.md) and [Advanced FAQ](20-advanced-faq.md).
+**Complete!** You've covered all 18 documentation sections. For more detailed questions, check [FAQ](19-faq) and [Advanced FAQ](20-advanced-faq).

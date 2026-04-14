@@ -518,4 +518,4 @@ The component code stays the same because we use the same types!
 
 ---
 
-**Next**: Learn about [Styling Guide](12-styling.md).
+**Next**: Learn about [Styling Guide](12-styling).

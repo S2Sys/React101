@@ -39,7 +39,7 @@ Hooks are functions that "hook into" React features. They let you use state and 
 ### Signature
 
 ```typescript
-const [state, setState] = useState<T>(initialValue: T): [T, (value: T) => void]
+const [state, setState] = useState<T>(initialValue: T): [T, ](value: T) => void]
 ```
 
 ### Basic Example
@@ -1001,4 +1001,4 @@ const usePreviousValue = <T,>(value: T): T | undefined => {
 
 ---
 
-**Next**: Learn about [State Management](04-state-management.md) patterns used in the app.
+**Next**: Learn about [State Management](04-state-management) patterns used in the app.

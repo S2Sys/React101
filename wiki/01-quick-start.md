@@ -52,7 +52,7 @@ Once the app loads, you should see:
 - ✅ "Sign Up" link at the bottom
 - ✅ Settings and help text
 
-If you see errors, check [Troubleshooting](18-troubleshooting.md).
+If you see errors, check [Troubleshooting](18-troubleshooting).
 
 ## 🎯 First Steps in the App
 
@@ -138,19 +138,19 @@ npm install            # Reinstall everything
 ## 🎓 Learning the App
 
 ### For Complete Beginners
-1. Read: [Project Architecture](02-architecture.md)
-2. Read: [React Hooks Explained](03-hooks-guide.md)
-3. Read: [Components Guide](05-components-guide.md)
+1. Read: [Project Architecture](02-architecture)
+2. Read: [React Hooks Explained](03-hooks-guide)
+3. Read: [Components Guide](05-components-guide)
 
 ### For Intermediate Developers
-1. Read: [State Management](04-state-management.md)
-2. Read: [Custom Hooks Library](06-custom-hooks.md)
-3. Read: [CRUD Operations](09-crud-operations.md)
+1. Read: [State Management](04-state-management)
+2. Read: [Custom Hooks Library](06-custom-hooks)
+3. Read: [CRUD Operations](09-crud-operations)
 
 ### For Advanced Developers
-1. Read: [Performance Tips](13-performance.md)
-2. Read: [TypeScript Guide](15-typescript.md)
-3. Read: [Best Practices](17-best-practices.md)
+1. Read: [Performance Tips](13-performance)
+2. Read: [TypeScript Guide](15-typescript)
+3. Read: [Best Practices](17-best-practices)
 
 ## 💡 Key Files to Explore
 
@@ -169,7 +169,7 @@ Start with these files to understand the structure:
 - `src/context/NotesContext.tsx` - Notes state management
 - `src/services/mockApi.ts` - Simulated backend
 
-### Hooks (Most Important!)
+### Hooks ](Most Important!)
 - `src/hooks/useAuth.ts` - Authentication hook
 - `src/hooks/useForm.ts` - Form management
 - `src/hooks/useFetch.ts` - Data fetching
@@ -202,7 +202,7 @@ npm install --legacy-peer-deps
 - Check browser console for errors (F12)
 - Try restarting the dev server
 
-See [Troubleshooting](18-troubleshooting.md) for more help.
+See [Troubleshooting](18-troubleshooting) for more help.
 
 ## ✨ Next Steps
 
@@ -217,8 +217,8 @@ See [Troubleshooting](18-troubleshooting.md) for more help.
 
 You now have a fully functional React application running. Take some time to explore and understand how everything works together.
 
-**Next**: Read [Project Architecture](02-architecture.md) to understand how everything is organized.
+**Next**: Read [Project Architecture](02-architecture) to understand how everything is organized.
 
 ---
 
-**Questions?** Check [Troubleshooting](18-troubleshooting.md) or review the [Best Practices](17-best-practices.md) guide.
+**Questions?** Check [Troubleshooting](18-troubleshooting) or review the [Best Practices](17-best-practices) guide.

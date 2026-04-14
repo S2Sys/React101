@@ -545,10 +545,10 @@ Other dependencies  155KB  (31%)
 
 ## 🔗 Related Documentation
 
-- [Custom Hooks](06-custom-hooks.md) - Reusable logic
-- [State Management](04-state-management.md) - Context and useReducer
-- [Best Practices](17-best-practices.md) - General optimization patterns
+- [Custom Hooks](06-custom-hooks) - Reusable logic
+- [State Management](04-state-management) - Context and useReducer
+- [Best Practices](17-best-practices) - General optimization patterns
 
 ---
 
-**Next**: Learn about [Error Handling](14-error-handling.md).
+**Next**: Learn about [Error Handling](14-error-handling).

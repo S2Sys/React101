@@ -9,54 +9,54 @@ This index contains all 20 documentation guides organized by difficulty and topi
 ## 🟢 **BEGINNER** (Start Here If New to React)
 
 ### Getting Started
-1. **[01-quick-start.md](01-quick-start.md)** - Installation, setup, first steps, troubleshooting
-2. **[02-architecture.md](02-architecture.md)** - Project structure, system design, data flow diagrams
+1. **[01-quick-start](01-quick-start)** - Installation, setup, first steps, troubleshooting
+2. **[02-architecture](02-architecture)** - Project structure, system design, data flow diagrams
 
 ### React Fundamentals
-3. **[03-hooks-guide.md](03-hooks-guide.md)** - All React hooks explained: useState, useEffect, useContext, useReducer, useCallback, useMemo, useRef, useLayoutEffect
+3. **[03-hooks-guide](03-hooks-guide)** - All React hooks explained: useState, useEffect, useContext, useReducer, useCallback, useMemo, useRef, useLayoutEffect
 
 ### First Concepts
-4. **[04-state-management.md](04-state-management.md)** - Global state, local state, localStorage, state patterns
-5. **[05-components-guide.md](05-components-guide.md)** - Component structure, props, composition patterns
+4. **[04-state-management](04-state-management)** - Global state, local state, localStorage, state patterns
+5. **[05-components-guide](05-components-guide)** - Component structure, props, composition patterns
 
 ---
 
 ## 🟡 **INTERMEDIATE** (Build Real Features)
 
 ### Custom Hooks & Patterns
-6. **[06-custom-hooks.md](06-custom-hooks.md)** - 12+ custom hooks: useAuth, useFetch, useForm, useLocalStorage, useDebounce
-7. **[07-pages-features.md](07-pages-features.md)** - Application pages: Login, Signup, Dashboard, Notes, Profile, Settings
+6. **[06-custom-hooks](06-custom-hooks)** - 12+ custom hooks: useAuth, useFetch, useForm, useLocalStorage, useDebounce
+7. **[07-pages-features](07-pages-features)** - Application pages: Login, Signup, Dashboard, Notes, Profile, Settings
 
 ### Core Features
-8. **[08-authentication.md](08-authentication.md)** - Authentication flows, tokens, protected routes, JWT basics
-9. **[09-crud-operations.md](09-crud-operations.md)** - Create, Read, Update, Delete patterns with state management
-10. **[10-form-handling.md](10-form-handling.md)** - Forms, validation, error handling, useForm hook patterns
+8. **[08-authentication](08-authentication)** - Authentication flows, tokens, protected routes, JWT basics
+9. **[09-crud-operations](09-crud-operations)** - Create, Read, Update, Delete patterns with state management
+10. **[10-form-handling](10-form-handling)** - Forms, validation, error handling, useForm hook patterns
 
 ### Styling & API
-11. **[11-mock-api.md](11-mock-api.md)** - Mock backend API, endpoints, in-memory storage, requests/responses
-12. **[12-styling.md](12-styling.md)** - CSS organization, responsive design, component styles, accessibility
+11. **[11-mock-api](11-mock-api)** - Mock backend API, endpoints, in-memory storage, requests/responses
+12. **[12-styling](12-styling)** - CSS organization, responsive design, component styles, accessibility
 
 ---
 
 ## 🔴 **ADVANCED** (Master React)
 
 ### Performance & Optimization
-13. **[13-performance.md](13-performance.md)** - useMemo, useCallback, memoization, code splitting, profiling, optimization
-14. **[14-error-handling.md](14-error-handling.md)** - Error boundaries, try/catch patterns, error recovery, logging
+13. **[13-performance](13-performance)** - useMemo, useCallback, memoization, code splitting, profiling, optimization
+14. **[14-error-handling](14-error-handling)** - Error boundaries, try/catch patterns, error recovery, logging
 
 ### Type Safety & Testing
-15. **[15-typescript.md](15-typescript.md)** - TypeScript with React, interfaces, generics, typing hooks, type patterns
-16. **[16-testing.md](16-testing.md)** - Unit tests, component tests, hook tests, integration tests, E2E testing
+15. **[15-typescript](15-typescript)** - TypeScript with React, interfaces, generics, typing hooks, type patterns
+16. **[16-testing](16-testing)** - Unit tests, component tests, hook tests, integration tests, E2E testing
 
 ### Professional Practices
-17. **[17-best-practices.md](17-best-practices.md)** - React patterns, code organization, naming conventions, design principles
-18. **[18-troubleshooting.md](18-troubleshooting.md)** - Common errors, debugging strategies, solutions
+17. **[17-best-practices](17-best-practices)** - React patterns, code organization, naming conventions, design principles
+18. **[18-troubleshooting](18-troubleshooting)** - Common errors, debugging strategies, solutions
 
 ---
 
 ## 📖 **REFERENCE** (Look Up Answers)
 
-19. **[19-faq.md](19-faq.md)** - 50+ Common Questions Answered
+19. **[19-faq](19-faq)** - 50+ Common Questions Answered
     - Installation & Setup
     - React Fundamentals
     - Hooks & Custom Hooks
@@ -70,7 +70,7 @@ This index contains all 20 documentation guides organized by difficulty and topi
     - Styling
     - Debugging & Errors
     
-20. **[20-advanced-faq.md](20-advanced-faq.md)** - 40+ Advanced Questions Answered
+20. **[20-advanced-faq](20-advanced-faq)** - 40+ Advanced Questions Answered
     - Infinite Loops & Race Conditions
     - Stale Closures & Memory Leaks
     - Performance Gotchas
@@ -84,17 +84,17 @@ This index contains all 20 documentation guides organized by difficulty and topi
 
 | Topic | Document | Key Sections |
 |-------|----------|--------------|
-| 🪝 **Hooks** | [03-hooks-guide.md](03-hooks-guide.md) | useState, useEffect, useContext, useReducer, useCallback, useMemo, useRef, useLayoutEffect |
-| 🔐 **Auth** | [08-authentication.md](08-authentication.md) | Login flow, signup, tokens, protected routes, JWT, real backend |
-| 📝 **Forms** | [10-form-handling.md](10-form-handling.md) | Form lifecycle, validation, error display, useForm hook |
-| 📡 **API** | [11-mock-api.md](11-mock-api.md) | Endpoints, CRUD operations, in-memory storage, error handling |
-| 🎨 **Styling** | [12-styling.md](12-styling.md) | CSS reset, responsive design, flexbox, grid, accessibility |
-| ⚡ **Performance** | [13-performance.md](13-performance.md) | useMemo, useCallback, React.memo, code splitting, profiling |
-| 🛡️ **Errors** | [14-error-handling.md](14-error-handling.md) | Error boundaries, try/catch, recovery, logging |
-| 📘 **TypeScript** | [15-typescript.md](15-typescript.md) | Interfaces, typing components, typing hooks, generics |
-| 🧪 **Testing** | [16-testing.md](16-testing.md) | Unit tests, component tests, E2E tests, testing patterns |
-| 💡 **Best Practices** | [17-best-practices.md](17-best-practices.md) | Component design, state patterns, code org, conventions |
-| 🐛 **Troubleshooting** | [18-troubleshooting.md](18-troubleshooting.md) | Common errors, debugging, error solutions |
+| 🪝 **Hooks** | [03-hooks-guide](03-hooks-guide) | useState, useEffect, useContext, useReducer, useCallback, useMemo, useRef, useLayoutEffect |
+| 🔐 **Auth** | [08-authentication](08-authentication) | Login flow, signup, tokens, protected routes, JWT, real backend |
+| 📝 **Forms** | [10-form-handling](10-form-handling) | Form lifecycle, validation, error display, useForm hook |
+| 📡 **API** | [11-mock-api](11-mock-api) | Endpoints, CRUD operations, in-memory storage, error handling |
+| 🎨 **Styling** | [12-styling](12-styling) | CSS reset, responsive design, flexbox, grid, accessibility |
+| ⚡ **Performance** | [13-performance](13-performance) | useMemo, useCallback, React.memo, code splitting, profiling |
+| 🛡️ **Errors** | [14-error-handling](14-error-handling) | Error boundaries, try/catch, recovery, logging |
+| 📘 **TypeScript** | [15-typescript](15-typescript) | Interfaces, typing components, typing hooks, generics |
+| 🧪 **Testing** | [16-testing](16-testing) | Unit tests, component tests, E2E tests, testing patterns |
+| 💡 **Best Practices** | [17-best-practices](17-best-practices) | Component design, state patterns, code org, conventions |
+| 🐛 **Troubleshooting** | [18-troubleshooting](18-troubleshooting) | Common errors, debugging, error solutions |
 
 ---
 
@@ -138,37 +138,37 @@ Week 4-6:  17 → 18 → 19-faq → 20-faq
 - **useMemo Hook?** → [03-hooks-guide.md](03-hooks-guide.md#usememo)
 - **useRef Hook?** → [03-hooks-guide.md](03-hooks-guide.md#useref)
 
-- **Authentication?** → [08-authentication.md](08-authentication.md)
-- **Protected Routes?** → [08-authentication.md](08-authentication.md)
-- **JWT Tokens?** → [08-authentication.md](08-authentication.md)
+- **Authentication?** → [08-authentication](08-authentication)
+- **Protected Routes?** → [08-authentication](08-authentication)
+- **JWT Tokens?** → [08-authentication](08-authentication)
 
-- **Form Validation?** → [10-form-handling.md](10-form-handling.md)
-- **Form Submission?** → [10-form-handling.md](10-form-handling.md)
-- **useForm Hook?** → [10-form-handling.md](10-form-handling.md)
+- **Form Validation?** → [10-form-handling](10-form-handling)
+- **Form Submission?** → [10-form-handling](10-form-handling)
+- **useForm Hook?** → [10-form-handling](10-form-handling)
 
-- **useMemo Optimization?** → [13-performance.md](13-performance.md)
-- **useCallback Optimization?** → [13-performance.md](13-performance.md)
-- **Code Splitting?** → [13-performance.md](13-performance.md)
+- **useMemo Optimization?** → [13-performance](13-performance)
+- **useCallback Optimization?** → [13-performance](13-performance)
+- **Code Splitting?** → [13-performance](13-performance)
 
-- **Error Boundaries?** → [14-error-handling.md](14-error-handling.md)
-- **Error Handling?** → [14-error-handling.md](14-error-handling.md)
-- **Try/Catch Patterns?** → [14-error-handling.md](14-error-handling.md)
+- **Error Boundaries?** → [14-error-handling](14-error-handling)
+- **Error Handling?** → [14-error-handling](14-error-handling)
+- **Try/Catch Patterns?** → [14-error-handling](14-error-handling)
 
-- **TypeScript with React?** → [15-typescript.md](15-typescript.md)
-- **Typing Components?** → [15-typescript.md](15-typescript.md)
-- **Typing Hooks?** → [15-typescript.md](15-typescript.md)
+- **TypeScript with React?** → [15-typescript](15-typescript)
+- **Typing Components?** → [15-typescript](15-typescript)
+- **Typing Hooks?** → [15-typescript](15-typescript)
 
-- **Unit Testing?** → [16-testing.md](16-testing.md)
-- **Component Testing?** → [16-testing.md](16-testing.md)
-- **E2E Testing?** → [16-testing.md](16-testing.md)
+- **Unit Testing?** → [16-testing](16-testing)
+- **Component Testing?** → [16-testing](16-testing)
+- **E2E Testing?** → [16-testing](16-testing)
 
-- **React Patterns?** → [17-best-practices.md](17-best-practices.md)
-- **Code Organization?** → [17-best-practices.md](17-best-practices.md)
-- **Naming Conventions?** → [17-best-practices.md](17-best-practices.md)
+- **React Patterns?** → [17-best-practices](17-best-practices)
+- **Code Organization?** → [17-best-practices](17-best-practices)
+- **Naming Conventions?** → [17-best-practices](17-best-practices)
 
-- **Debugging?** → [18-troubleshooting.md](18-troubleshooting.md)
-- **Common Errors?** → [18-troubleshooting.md](18-troubleshooting.md)
-- **Error Solutions?** → [18-troubleshooting.md](18-troubleshooting.md)
+- **Debugging?** → [18-troubleshooting](18-troubleshooting)
+- **Common Errors?** → [18-troubleshooting](18-troubleshooting)
+- **Error Solutions?** → [18-troubleshooting](18-troubleshooting)
 
 ---
 
@@ -231,7 +231,7 @@ npm start
 ```
 
 ### Step 2: Read
-Start with [01-quick-start.md](01-quick-start.md)
+Start with [01-quick-start](01-quick-start)
 
 ### Step 3: Explore
 Browse source code in `src/` directory
@@ -243,9 +243,9 @@ Follow the [Recommended Learning Paths](#-recommended-learning-paths) above
 
 ## 📞 Need Help?
 
-- Check [19-faq.md](19-faq.md) for common questions
-- Search [18-troubleshooting.md](18-troubleshooting.md) for error solutions
-- Browse [20-advanced-faq.md](20-advanced-faq.md) for complex questions
+- Check [19-faq](19-faq) for common questions
+- Search [18-troubleshooting](18-troubleshooting) for error solutions
+- Browse [20-advanced-faq](20-advanced-faq) for complex questions
 
 ---
 

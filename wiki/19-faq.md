@@ -1218,11 +1218,11 @@ Deploy the `build` folder to:
 5. **ChatGPT** - Ask specific questions
 
 **In This Wiki:**
-- [Quick Start](01-quick-start.md) - Getting started
-- [Hooks Guide](03-hooks-guide.md) - All hooks explained
-- [State Management](04-state-management.md) - Managing state
-- [Components](05-components-guide.md) - Component patterns
-- [Authentication](08-authentication.md) - Auth flow
+- [Quick Start](01-quick-start) - Getting started
+- [Hooks Guide](03-hooks-guide) - All hooks explained
+- [State Management](04-state-management) - Managing state
+- [Components](05-components-guide) - Component patterns
+- [Authentication](08-authentication) - Auth flow
 
 ---
 
