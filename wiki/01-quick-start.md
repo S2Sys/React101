@@ -2,6 +2,10 @@
 
 Get the React Comprehensive Learning App running in 5 minutes!
 
+> **✅ Auto-Synced:** This wiki is automatically synced from the source repository using GitHub Actions. Changes to the `/wiki` folder are automatically deployed to the wiki.
+
+---
+
 ## 📋 Prerequisites
 
 - Node.js 16+ ([Download](https://nodejs.org/))

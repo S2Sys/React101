@@ -254,4 +254,21 @@ Follow the [Recommended Learning Paths](#-recommended-learning-paths) above
 **Total Content:** 20,000+ lines of documentation  
 **Code Examples:** 500+
 
+---
+
+## 🔄 Auto-Sync Status
+
+✅ **Wiki Auto-Sync Enabled**
+
+This wiki is now automatically synchronized with the source repository using GitHub Actions. Any changes pushed to the `/wiki` folder will automatically be deployed to this GitHub Wiki within seconds.
+
+**How it works:**
+1. Changes are made to wiki files in `/wiki` folder
+2. Changes are committed and pushed to GitHub
+3. GitHub Actions workflow triggers automatically
+4. Wiki files are copied to the wiki repository
+5. Changes appear on the wiki automatically
+
+**Last sync check:** This page was updated as part of the auto-sync setup verification.
+
 Happy Learning! 🎉

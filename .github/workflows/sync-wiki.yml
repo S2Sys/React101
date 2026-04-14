@@ -1,0 +1,97 @@
+name: Sync Wiki from Source
+
+on:
+  push:
+    paths:
+      - 'wiki/**'
+    branches:
+      - claude/react-comprehensive-app-gYw6r
+      - main
+
+jobs:
+  sync-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Git
+        run: |
+          git config --global user.name "Wiki Sync Bot"
+          git config --global user.email "noreply@github.com"
+
+      - name: Clone wiki repository
+        run: |
+          git clone https://github.com/S2Sys/React101.wiki.git wiki-repo
+          cd wiki-repo
+          ls -la
+
+      - name: Copy wiki files
+        run: |
+          cd wiki-repo
+          cp ../wiki/*.md ./
+          ls -la *.md
+
+      - name: Create sidebar navigation
+        run: |
+          cd wiki-repo
+          cat > _Sidebar.md << 'EOF'
+# 📚 React101
+
+## 🟢 Beginner
+- **[Home](Home)**
+- **[Quick Start](01-quick-start)**
+- **[Architecture](02-architecture)**
+- **[Hooks Guide](03-hooks-guide)**
+- **[State Management](04-state-management)**
+- **[Components](05-components-guide)**
+
+## 🟡 Intermediate
+- **[Custom Hooks](06-custom-hooks)**
+- **[Pages & Features](07-pages-features)**
+- **[Authentication](08-authentication)**
+- **[CRUD Operations](09-crud-operations)**
+- **[Form Handling](10-form-handling)**
+- **[Mock API](11-mock-api)**
+- **[Styling](12-styling)**
+
+## 🔴 Advanced
+- **[Performance](13-performance)**
+- **[Error Handling](14-error-handling)**
+- **[TypeScript](15-typescript)**
+- **[Testing](16-testing)**
+- **[Best Practices](17-best-practices)**
+- **[Troubleshooting](18-troubleshooting)**
+
+## 📖 Reference
+- **[FAQ](19-faq)**
+- **[Advanced FAQ](20-advanced-faq)**
+
+---
+**Status:** Auto-synced from source repository
+EOF
+
+      - name: Check for changes
+        run: |
+          cd wiki-repo
+          git status
+
+      - name: Commit and push changes
+        run: |
+          cd wiki-repo
+          if [[ $(git status -s) ]]; then
+            git add *.md _Sidebar.md
+            git commit -m "Auto-sync wiki from source repository
+
+- Updated all wiki documents
+- Fixed all links for GitHub Wiki format
+- Refreshed sidebar navigation
+- Synced on: $(date)"
+            git push https://github.com/S2Sys/React101.wiki.git master
+            echo "✅ Wiki synced successfully!"
+          else
+            echo "⏭️ No changes to sync"
+          fi
+
+      - name: Sync completed
+        run: echo "✅ Wiki sync completed at $(date)"
